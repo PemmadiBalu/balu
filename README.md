@@ -5,27 +5,31 @@ The app supports real-time translation, text and audio chat, conversation storag
 
 Built with Flask (Backend) and React.js (Frontend).
 
-📁 Project Structure
+📁 Project Structure – doctor-patient-chat
+
 doctor-patient-chat/
-│
-├── backend/
-│   ├── app.py
-│   ├── model.py
-│   ├── chart.db
-│   ├── requirements.txt
-│   └── .env
-│
-└── frontend/
-    ├── package.json
-    ├── public/
-    │   └── index.html
-    └── src/
-        ├── App.js
-        ├── index.js
-        ├── chat.js
-        ├── audiorecorder.js
-        ├── aips.js
-        └── index.css
+
+backend/
+app.py – Flask backend API
+model.py – Database models and helpers
+chart.db – SQLite database
+requirements.txt – Python dependencies
+.env – Environment variables
+
+frontend/
+package.json – Frontend dependencies and scripts
+
+public/
+index.html – Main HTML file
+
+src/
+
+App.js – Main React component
+index.js – React entry point
+chat.js – Chat UI and message logic
+audiorecorder.js – Audio recording functionality
+aips.js – AI API service calls
+index.css – Global styling
 
 ✨ Features
 Core Features:
