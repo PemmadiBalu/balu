@@ -1,11 +1,11 @@
-🩺 Doctor–Patient Real-Time Translation Chat
+##🩺 Doctor–Patient Real-Time Translation Chat
 
 A full-stack web application that enables seamless communication between doctors and patients speaking different languages.
 The app supports real-time translation, text and audio chat, conversation storage, search, and AI-generated medical summaries.
 
 Built with Flask (Backend) and React.js (Frontend).
 
-📁 Project Structure – doctor-patient-chat
+##📁 Project Structure – doctor-patient-chat
 
 doctor-patient-chat/
 
@@ -31,7 +31,7 @@ audiorecorder.js – Audio recording functionality
 aips.js – AI API service calls
 index.css – Global styling
 
-✨ Features
+###✨ Features
 Core Features:
 Doctor & Patient roles
 Real-time multilingual translation
@@ -46,13 +46,13 @@ AI Capabilities
 Language translation
 Medical conversation summarization
 
-Highlighting:
+##Highlighting:
 Symptoms
 Diagnosis
 Medications
 Follow-up actions
 
-🧠 Tech Stack
+##🧠 Tech Stack
 Frontend
 React.js
 Axios
@@ -80,7 +80,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 python app.py
 
 
-Backend runs on:
+##Backend runs on:
 
 http://localhost:5000
 
@@ -95,7 +95,7 @@ npm install
 npm start
 
 
-Frontend runs on:
+##Frontend runs on:
 
 http://localhost:3000
 
@@ -129,7 +129,7 @@ Records audio directly from microphone
 
 Audio stored and played inside chat
 
-🚀 Deployment
+##🚀 Deployment
 
 You can deploy:
 
@@ -139,12 +139,12 @@ Backend → Render / Railway
 
 Database → Local SQLite or cloud migration
 
-🔒 Disclaimer
+##🔒 Disclaimer
 
 This project is for educational and demonstration purposes only.
 It is not a certified medical system.
 
-📌 Future Enhancements
+##📌 Future Enhancements
 
 WebSocket real-time messaging
 
@@ -156,7 +156,7 @@ Downloadable conversation reports
 
 Cloud audio storage
 
-👤 Author
+##👤 Author
 
 Balu Pemmadi
 AI & Data Science | Full-Stack Developer
